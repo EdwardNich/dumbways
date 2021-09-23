@@ -1,0 +1,34 @@
+.gitignore: saat melakukan add n commit kita bisa atur agar beberapa file tidak ikut terbawa
+
+syntax
+merge:
+git merge <name_branch>
+
+remote:
+git remote add <nama_remote>
+
+push:
+git push -u <nama_remote> <nama_branch> // dilakukan saat pertama kali ingin melakukan push ke remote tanpa menulis nama remote nya lagi, -u adlaah upstream
+git push <nama_remote> <nama_branch>
+git push <nama_remote --delete <nama_branch> // untuk menghapus branch yang ada di github
+
+membuat branch n checkout:
+git branch // untuk melihat list branch
+git branch <nama_branch> // untuk membuat branch
+git checkout <nama_branch> // untuk berpindah branch
+git checkout -b <nama_branch // jika branch tidak ada akan membuat branch lalu berpindah ke branch tsb
+
+delete:
+git branch -d <nama_branch> // untuk menghapus branch yang sudah di merge
+git branch -D <nama_branch> // untuk tetap menghapus branch yang belum di merge
+
+for history & graph
+git log
+git log --all --decorate --oneline --graph
+git log --oneline --graph
+
+Jenis merge:
+- Fast forward
+  ketika yang di merge berada satu jalur/path 
+- Three-way merge / merge commite
+  ketika yang di merge berbeda jalur/path nya 

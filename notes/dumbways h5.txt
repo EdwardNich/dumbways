@@ -1,0 +1,13 @@
+nilai di dalam array disebutnya elemen
+array adalah variable yang kompleks yang memungkinkan kita menyimpan lebih dari satu nilai
+arr[i] -> indexing 
+
+
+
+javascript adalah bahasa pemprograman yang berbasis object.
+object merupakan colection yang memiliki properti dan value, properti adalah ciri khas nya
+
+array multidimention adalah sebuah variable yang menyimpan sekumpulan data yang memiliki tipe sama dan elemen yang akan diakses melalui banyak indeks
+atau array di dalam array
+
+method adalah properti tapi mempunyai fungsi

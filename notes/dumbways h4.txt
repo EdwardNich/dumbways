@@ -1,0 +1,24 @@
+post variable
+value++ value--
+
+pre variable 
+--value ++value
+
+classical for loop
+
+
+recap
+what is operator?
+operator adalah imbol atau keyword yang menjelaskan ke javascript untuk melakukan beberapa aksi/tindakan
+
+what is a looping?
+looping secara basic ia adalah perulanga. loop adalah urutan instruksi yang terus menerus diulang sampai kondisi tertentu tercapai. 
+dan kondisi akan tercapai ketika false
+
+adalah sebuah konsep dimana suatu progrma mengeksekusi blok kode yang sama sampai kondisi tersebut terpenuhi
+
+what is condition?
+Kondisi adalah pernyataan yang dibuat oleh programmer yang mengevaluasi tindakan dalam program dan mengevaluasi 
+apakah itu benar atau salah
+
+

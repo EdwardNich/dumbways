@@ -1,0 +1,20 @@
+// OOP
+- sebuah metode pemrograman yang digunakan oleh developer untuk mempermudah pengembangan program dengan cara mengikuti model yang telah ada di kehidupan sehari-hari.
+- Paradigma pemrograman dimana kita menggabungkan data dan fungsionalitas di satu tempat
+
+apakah javascript m
+oop di js tidak sepenuhnya oop. karena semua yang ada pada kodingan kita mulai dari pendefinisian class dsb akan di konfert menjadi sebuah function
+
+// constructor merupakan
+
+// enkapsulation 
+cara buat membatasi properti dari method
+untuk mengatur struktur data
+menggabungkan beberapa nilai yang berkaitan menjadi satu struktur data
+
+abstraksi ketika me
+
+
+paradigma
+- function programming
+- abstraction

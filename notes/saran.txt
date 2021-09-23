@@ -1,0 +1,15 @@
+tgs1
+form nya di kasih judul sama address kasih mode textfield biar luas
+
+tgs2
+font input dikasih perbesar sedikit, Perhatikan kontras antara warna teks dengan warna background pada button submit.
+
+tgs3 
+tampilan: 
+perhatikan kontras terutama icon
+ukuran input harus di perbesar, standar 16px
+font-size: 18px (rekomended)
+
+presentasi:
+presentasi tadi kurang memperjelas dan membuat audience tertarik
+perhatikan intonasi, pembawaan
