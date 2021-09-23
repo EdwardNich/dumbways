@@ -1,0 +1,211 @@
+@import 'https://fonts.googleapis.com/css?family=Poppins';
+@import 'https://fonts.googleapis.com/css?family=Ubuntu';
+
+:root { 
+    --color-theme: #e0e0e0;
+    --primary-theme: #baf4c8; /* #e1e6fb #89b5e7 */
+    --second-theme: hsl(229, 73%, 84%);
+    --third-theme: #e1e6fb;
+
+    --bg-label-input_even: var(--primary-theme);
+    --bg-label-input_odd: var(--second-theme);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+
+/* shortcut */
+.title { 
+    color: #5f5f5f;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+/* tutup */
+
+/* ubah perilaku normal html */
+input, textarea {
+    border: none;
+    background-color: transparent;
+    font-family: 'Poppins';
+}
+
+:focus { outline: none }
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.primitive li {
+    margin-left: 20px;
+}
+/* tutup */
+
+body { 
+    background-color: var(--color-theme);
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+}
+
+.card {
+    padding: 12px 15px;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    background-color: var(--color-theme);
+    box-shadow:  25px 25px 50px rgba(56, 56, 56, 0.2);
+}
+
+.card.active {
+    height: 700px;
+}
+
+.heading_card {
+    text-align: center;
+    color: rgb(127, 155, 192);
+}
+
+.card button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--second-theme);
+    border: none;
+    border-radius: 0 0 13px 13px;
+}
+
+.card button:focus {
+    box-shadow: inset 10px 10px 30px #9ea7cf,
+            inset -10px -10px 30px #d6e3ff;
+}
+
+.in_container.left {
+    flex: 50%;
+    min-height: 100vh;
+    padding: 50px 90px 40px 40px;
+    background-color: var(--second-theme); /* 89b5e7 5da5f7 */
+}
+
+.contact { 
+    display: flex;
+    align-items: center;
+}
+
+.contact img { 
+    width: 30px;
+    margin-right: 8px; 
+}
+
+.in_container.right {
+    background: url('img/bg-form.png') no-repeat center scroll;
+    background-size: contain;
+    padding: 40px 7%;
+}
+
+.form {
+    padding: 20px;
+    background-color: var(--color-theme);
+    width: 450px;
+    max-width: 90%;
+    position: relative;
+    left: -30%;
+    border-radius: 13px;
+    box-shadow:  10px 10px 22px #bebebe;
+}
+
+.wrapper_input {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ubah input ke yang baru */
+.label_input {
+    padding: 3px 10px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+}
+
+span:nth-child(even) .label_input { background-color: var(--bg-label-input_even) }
+span:nth-child(odd) .label_input { background-color: var(--bg-label-input_odd) }
+
+.label_input input {
+    margin-right: 5px;
+}
+/* tutup */
+
+
+.form h2 {
+    color: #5f5f5f;
+    text-align: center;
+}
+
+/* border-radius */
+.card, input:not(.primitive), textarea, button { border-radius: 13px }
+
+input:not(.primitive), textarea, button {
+    width: 100%;
+    padding: 10px 14px;
+    background-color: #e0e0e0;
+    box-shadow:  10px 10px 22px #bebebe;
+    border: 1px solid rgba(228, 228, 228, 0.9);
+    resize: none;
+}
+
+input:not(.primitive) {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type=radio] {
+    width: 10px
+}
+
+input:not(.primitive):focus, textarea:focus, button:focus {
+    box-shadow: inset 14px 14px 28px #bebebe,
+                inset -14px -14px 28px #ffffff;
+}
+
+button[type=submit] {
+    width: 100%;
+    margin: 25px auto 10px;
+    color: rgb(255, 255, 255);
+    background-color: #53d49c;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.089px;
+}
+
+button[type=submit]:focus {
+    box-shadow: inset 20px 20px 60px #47b485,
+            inset -20px -20px 60px #5ff4b3;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .in_container.left  {
+        padding: 30px;
+    }
+    .container {
+        flex-direction: column;
+    }
+
+    .form {
+        margin: 10px auto;
+        left: 0;
+    }
+}

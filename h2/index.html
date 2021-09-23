@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamental css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="in_container left">
+            <h1 class="title" title="name">Doltons Edward N Pabiaran</h1>
+            <br>
+            <p title="date">I was born on 05/12/2002</p>
+            <br>
+            <p title="gender">Gender Male</p>
+            <br>
+            <p title="summary">
+                I am a Dumbways.id bootcamp participant, but because I failed the test, I was finally transferred to the prebootcamp class, which is the class before bootcamp. I have a hobby in design and coding.
+            </p>
+            <br>
+            <p>Hobi saya Desain dan coding</p>
+            <br>
+            <div class="contact" title="phone"><img src="https://img.icons8.com/external-flatarticons-blue-flatarticons/65/000000/external-phone-contact-us-flatarticons-blue-flatarticons.png"/> <p>089619800459</p></div>
+            <br>
+            <div class="contact" title="email"><img src="https://img.icons8.com/external-flatarticons-blue-flatarticons/50/000000/external-email-contact-us-flatarticons-blue-flatarticons-8.png"/> <p>edwarddoltons@gmail.com</p></div>
+            <br>
+            <div class="contact" title="address"><img src="https://img.icons8.com/external-flatarticons-blue-flatarticons/50/000000/external-location-contact-us-flatarticons-blue-flatarticons.png"/> <p>JL. Musyawarah</p></div>
+        </div>
+        <div class="in_container right">
+            <form class="form" id="form" action="">
+                <h2>For Personal data</h2>
+                <br>
+                <label for="name">Nama: </label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="Name..">
+                <br>
+                <label for="birth">Tanggal Lahir: </label>
+                <br>
+                <input type="date" name="name" id="birth" placeholder="Birth day..">
+                <br>
+                <p>Gender: </p>
+                <span>
+                    <input type="radio" name="gender" class="primitive" id="male" checked>
+                    <label for="male">Male</label>
+                    <br>
+                </span>
+                <span>
+                    <input type="radio" name="gender" class="primitive" id="female">
+                    <label for="female">Female</label>
+                    <br>
+                </span>
+                <br>
+                <label for="summary">Summary: </label>
+                <br>
+                <textarea name="summary" id="summary" rows="8" placeholder="Summary.."></textarea>
+                <br><br>
+                <p>Hobby</p>
+                <span>
+                    <input type="checkbox" name="hobby" class="primitive" id="design" checked>
+                    <label for="design">Design</label>
+                    <br>
+                </span>
+                <span>
+                    <input type="checkbox" name="hobby" class="primitive" id="coding" checked>
+                    <label for="coding">Coding</label>
+                    <br>
+                </span>
+                <br>
+                <label for="phone">Phone: </label>
+                <br>
+                <input type="text" name="phone" id="phone" pattern="[0-9]" placeholder="Phone..">
+                <br>
+                <label for="email">Email: </label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Email..">
+                <br>
+                <label for="address">Address: </label>
+                <br>
+                <textarea name="summary" id="summary" rows="8" placeholder="Address.."></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

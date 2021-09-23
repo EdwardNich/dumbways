@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H4 Dumbways</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="in_container left">
+            <h1 class="title_form">Number Generator</h1>
+            <br>
+            <form action="javascript:void(0)">
+                <input id="inputNumber" class="btn inputNumber" type="text" name="nilai" placeholder="Masukkan jumlah nilai..">
+                <br>
+                <button class="btn even" onclick="generateEven()">Genap</button>
+                <button class="btn odd" onclick="generateOdd()">Ganjil</button>
+                <button class="btn prime" onclick="generatePrime()">Prima</button>
+            </form>
+        </div>
+        <div class="in_container right">
+            <h2 class="title_result">Result</h2>
+            <br>
+            <div class="result_output">
+                <p id="outputNumber"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>

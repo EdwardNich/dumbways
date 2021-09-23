@@ -1,0 +1,21 @@
+jangan data yang menyesuaikan program, tapi program yang harus menyesuaikan dengan data
+
+//latihan
+pertama, apa itu html. html adalah HyperText Markup Language yang memungkinkan kita membuat suatu penanda yang bisa di baca oleh browser nantinya
+
+
+function expression memungkinkan kita membuat anonymous function yang tidak memiliki nama fungsi apa pun tapi di simpan ke dalam 
+
+
+
+
+
+
+
+
+
+
+
+
+// referensi
+https://dev.to/gscode/10-radio-button-css-style-examples-ph6

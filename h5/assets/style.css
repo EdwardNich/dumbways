@@ -1,0 +1,39 @@
+@import 'https:fonts.googleapis.com/css?family=Poppins';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.listTodo, .action {
+    display: flex;
+}
+
+.listTodo {
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(149, 216, 196);
+    padding: 5px 8px;
+    margin: 5px;
+}
+
+.done, .delete {
+    padding: 5px 8px;
+}
+
+.action .done {
+    background-color: lightgreen;
+}
+
+.action .done.active {
+    color: lightgreen;
+}
+
+.action .delete {
+    background-color: lightcoral;
+}

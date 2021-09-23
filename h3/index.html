@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Belajar coding dari Dumbways.id">
+    <title>Fundamental css</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="in_container left">
+            <div class="card" id="cardData">
+                <div class="wrapper_data">
+                    <h1 class="heading_card">About me</h1>
+                    <h2 class="title" id="nameEl" title="name">Doltons Edward N Pabiaran</h2>
+                    <br>
+                    <div class="contact"><img src="assets/icon/date.png"/> <p id="dateEl">05/12/2002</p></div>
+                    <br>
+                    <p title="summary" id="summaryEl">
+                        I am a Dumbways.id bootcamp participant, but because I failed the test, I was finally transferred to the prebootcamp class, which is the class before bootcamp. I have a hobby in design and coding.
+                    </p>
+                    <br>
+                    <p>
+                        Hobi saya :
+                        <ul class="primitive" id="hobbyEl">
+                            <li>Design</li>
+                            <li>Coding</li>
+                        </ul>
+                    </p>
+                    <br>
+                    <div class="contact"><img src="assets/icon/gender.png"/> <p id="genderEl">Male</p></div>
+                    <br>
+                    <div class="contact" title="phone"><img src="assets/icon/telephone.png"/> <p id="phoneEl">089619800459</p></div>
+                    <br>
+                    <div class="contact" title="email"><img src="assets/icon/mail.png"/> <p id="emailEl">edwarddoltons@gmail.com</p></div>
+                    <br>
+                    <div class="contact" title="address"><img src="assets/icon/location.png"/> <p id="addressEl">JL. Musyawarah</p></div>
+                    <button id="btnToggleCard">Detail</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="in_container right">
+            <form class="form" id="form" action="">
+                <h2>For Personal data</h2>
+                <br>
+                <label for="name">Nama: </label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="Name.." required>
+                <br>
+                <label for="birth">Tanggal Lahir: </label>
+                <br>
+                <input type="date" name="name" id="birth" placeholder="Birth day.." value="2002-12-05" required>
+                <br>
+                <label for="summary">Summary: </label>
+                <br>
+                <textarea name="summary" id="summary" rows="6" placeholder="Summary.."></textarea>
+                <br><br>
+
+                <div class="wrapper_input">
+                    <section>
+                        <!-- bagian input radio -->
+                        <p>Gender: </p>
+                        <span>
+                            <label class="label_input" id="labelMale">
+                                <span class="radio_control"></span>
+                                <input type="radio" name="gender" class="primitive" id="male" checked> Male
+                            </label>
+                        </span>
+                        <span>
+                            <label class="label_input" id="labelFemale">
+                                <span class="radio_control"></span>
+                                <input type="radio" name="gender" class="primitive" id="female"> Female
+                            </label>
+                        </span>
+                        <br>
+                        <!-- tutup -->
+                    </section>
+
+                    <section>
+                        <!-- bagian input checbox -->
+                        <p>Hobby: </p>
+                        <span>
+                            
+                            <label class="labelHobby label_input">
+                                <input type="checkbox" name="hobby" class="primitive inputHobby" checked> Design
+                            </label>
+                        </span>
+                        <span>
+                            <label class="labelHobby label_input">
+                                <input type="checkbox" name="hobby" class="primitive inputHobby" checked> Coding
+                            </label>
+                        </span>
+                        <span>
+                            <label class="labelHobby label_input"> 
+                                <input type="checkbox" name="hobby" class="primitive inputHobby" checked> Basket
+                            </label>
+                        </span>
+                        <span>
+                            <label class="labelHobby label_input"> 
+                                <input type="checkbox" name="hobby" class="primitive inputHobby" checked> Beladiri
+                            </label>
+                        </span>
+                        <!-- tutup -->
+                    </section>
+                </div>
+
+                <br>
+                
+                <label for="phone">Phone: </label>
+                <br>
+                <input type="text" name="phone" id="phone" placeholder="Phone.." required>
+                <br>
+                <label for="email">Email: </label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Email.." required>
+                <br>
+                <label for="address">Address: </label>
+                <br>
+                <textarea name="summary" id="address" rows="6" placeholder="Address.." required></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/script2.js"></script>
+
+</body>
+</html>

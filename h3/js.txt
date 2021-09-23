@@ -1,0 +1,37 @@
+// Tipe dan struktur data
+JavaScript merupakan bahasa pemrograman yang dinamis. Artinya, variable dalam JavaScript tidak secara langsung dikaitkan dengan tipe data tertentu, dan variabel apa pun dapat ditetapkan (dan ditetapkan kembali) dengan tipe yang berbeda.
+
+Tipe data pada dasarnya menentukan jenis data apa yang dapat disimpan dan dimanipulasi dalam suatu program.  JavaScript memiliki dua tipe data utama, yaitu primitif dan non-primitif.
+
+// Tipe data primitif
+Data primitif merupakan tipe data sederhana yang tidak mempunyai method atau properti dan nilainya tidak dapat diubah setelah dibuat / immutable.
+
+JavaScript memiliki 6 tipe data primitif yaitu: string, number, boolean, null, undefined, dan symbol.
+
+
+semakin keatas tingkat level pemprograman semakin mudah dibaca oleh mesin dan manusia
+
+
+
+
+
+
+
+
+
+
+# RECAP
+What is javascript and what does it do? 
+Javascript adalah bahasa pemrograman tingkat tinggi yang dapat berjalan di browser, yang dilakukan yang dibuat javascript ialah membuat website kita dinamis
+
+
+What is data type?
+- Tipe data adalah klasifikasi variabel untuk menentukan data yang akan di simpan ke memori. Dengan memahami suatu tipe data, pengguna dapat menentukan nilai data yang dimiliki oleh data tersebut.
+- Set that the user can find on all data. By understanding a data type, the user can determind a data value that is owned by the data.
+
+What is a function?
+- function adalah sub program yang dapat di gunakan kembali baik dengan program itu sendiri, atau program lain
+- sub program that can be reused either within the program itself, or in other program.
+
+icon
+https://img.icons8.com/external-flatarticons-blue-flatarticons/50/000000/external-email-contact-us-flatarticons-blue-flatarticons-8.pnghttps://img.icons8.com/external-flatarticons-blue-flatarticons/50/000000/external-email-contact-us-flatarticons-blue-flatarticons-8.png

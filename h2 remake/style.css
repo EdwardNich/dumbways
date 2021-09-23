@@ -1,0 +1,124 @@
+@import 'https://fonts.google.com/css?family=Poppins';
+
+:root { --body-bg: #e0e0e0 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+
+/* shortcut */
+.title { 
+    color: whitesmoke;
+    font-size: 3em;
+}
+
+/* tutup */
+
+/* perilaku normal html */
+input, textarea {
+    border: none;
+    background-color: transparent;
+    font-family: 'Poppins';
+}
+
+:focus { outline: none }
+
+button {
+    border: none
+}
+/* tutup */
+
+body { 
+    background-color: var(--body-bg);
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+}
+
+.in_container.left {
+    padding: 40px 90px 40px 40px;
+    background-image: linear-gradient(to bottom right, #5d5df7, #5fd7e7);
+}
+
+.contact { 
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.contact img { 
+    width: 50px;
+    margin-right: 8px; 
+}
+
+.in_container.right {
+    background: url('bg1-1.png') no-repeat right scroll;
+    padding: 40px 7%;
+}
+
+form {
+    padding: 20px;
+    background-color: var(--body-bg);
+    width: 500px;
+    max-width: 90%;
+    border-radius: 13px;
+    box-shadow:  10px 10px 22px #bebebe;
+}
+
+input:not(.primitive), textarea, button {
+    width: 100%;
+    padding: 10px 14px;
+    background-color: #e0e0e0;
+    border: 1px rgba(255, 255, 255, 0.9);
+    border-radius: 13px;
+    box-shadow:  10px 10px 22px #bebebe;
+    resize: none;
+}
+
+input:not(.primitive) {
+    width: 100%;
+    margin-bottom: 15px;
+    
+}
+
+input[type=radio] {
+    width: 10px
+}
+
+input:not(.primitive):focus, textarea:focus, button:focus {
+    box-shadow: inset 14px 14px 28px #bebebe,
+                inset -14px -14px 28px #ffffff;
+}
+
+
+button[type=submit] {
+    width: 100%;
+    margin: 25px auto 10px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom,#92faa9, #80ED99);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.089px;
+}
+
+@media only screen and (max-width: 600px) {
+    .in_container.left  {
+        padding: 30px;
+    }
+    .container {
+        flex-direction: column;
+    }
+
+    form {
+        left: 0;
+    }
+}
